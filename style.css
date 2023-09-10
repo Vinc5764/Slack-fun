@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    background-color: #030303;
+    color: #adadad;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace;
+}
+
+h1.main-title {
+    font-family: math;
+    font-size: 2rem;
+    height: 15%;
+}
+
+h2 {
+    color: #ebebebf0;
+    font-size: 1.2rem;
+}
+
+img.profile-image {
+    border-radius: 2px;
+    position: relative;
+    width: 300px;
+    left: 10px;
+    top: 10px;
+}
+
+.profile-container {
+    border-radius: 2px;
+    border: 1px solid #a371d1;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+a > h2 {
+    color: #a371d1;
+}
+
+a > h2:hover {
+    color: #3d0274;
+}
+
+.container {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gap-xl {
+    gap: 50px;
+}
+
+.gap-l {
+    gap: 20px;
+}
+
+.gap-m {
+    gap: 10px;
+}
